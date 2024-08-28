@@ -10,8 +10,7 @@ jobs:
     machine: true
     steps:
       - mabl-trigger-tests/run-tests:
-          api-key: phczsFxwIoFBkSTVIwSl9w
-          browsers: chrome
+          api-key: MABL_API_KEY
           labels: testmabl
 
   say-hello:
