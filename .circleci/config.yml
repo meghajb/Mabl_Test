@@ -12,7 +12,7 @@ jobs:
     steps:
       - mabl-trigger-tests/run-tests:
           api-key: MABL_API_KEY
-          application-id: myApplicationID_a
+          application-id: "WlWxNeyJQcRSNkoWrdNLjg-a"
           labels: testmabl
 
   say-hello:
