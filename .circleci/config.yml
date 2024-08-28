@@ -11,11 +11,9 @@ jobs:
     steps:
       - mabl-trigger-tests/run-tests:
           api-key: phczsFxwIoFBkSTVIwSl9w
-          application-id: myApplicationID-a
           browsers: chrome
-          environment-id: myEnvironmentID-e
-          labels: myPlanLabel
-          mabl-branch: developmentBranch 
+          labels: testmabl
+
   say-hello:
     # Specify the execution environment. You can specify an image from Docker Hub or use one of our convenience images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/executor-intro/ & https://circleci.com/docs/configuration-reference/#executor-job
